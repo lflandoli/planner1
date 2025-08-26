@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1c1c1c;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#task-form {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column {
+  background: #2b2b2b;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+  min-height: 300px;
+}
+
+.column h2 {
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  background: #444;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: grab;
+}
